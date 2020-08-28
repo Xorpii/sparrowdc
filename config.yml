@@ -11,13 +11,13 @@ setup:
 ##### SETTINGS #####
 
 colour: "FF0062"
-prefix: "="
+prefix: "-"
 
-serverName: "Zeltux"
-botName: "Zeltux"
-footer: "© Zeltux | Owned by Matt | Developed by Matt, Azono & MCThunder"
+serverName: "Sparrow"
+botName: "Sparrow"
+footer: "© Sparrow | Eigenaar Xorpi | Gemaakt door Xorpi"
 
-statusMessage: "-help"
+statusMessage: "@Xorpi#4323"
     
 disabledCommands: [""]
 
@@ -29,10 +29,10 @@ inviteSystem: "on"
 core:
   fun: "on"
   moderation: "on"
-  tickets: "on"
+  tickets: "off"
   utilities: "on"
   giveaways: "on"
-  economy: "on"
+  economy: "off"
   levels: "on"
   music: "on"
 
@@ -44,13 +44,10 @@ autoRoles: ["Member"]
 joinLeaveMessage: "on"
 joinLeaveChannel: "welcome"
 
-welcomeMsgLine1: "Thanks For Joining Us"
-welcomeMsgLine2: "From the Zeltux team"
+welcomeMsgLine1: "Bedankt voor het joinen!"
+welcomeMsgLine2: "Veel plezier op de server"
 
-leaveMsgLine1: "Hope your enjoyed your stay"
-leaveMsgLine2: "From the Zeltux team"
-
-verificationSystem: "off"
+verificationSystem: "on"
 verificationRole: "Verified"
 verificationChannel: "verify"
 
@@ -59,7 +56,7 @@ verificationChannel: "verify"
 
 mutedRole: "Muted"
 defaultRole: "Member"
-staffRole: "Staff"
+staffRole: "Staff✔"
 managementRole: "Management"
 
 
@@ -107,16 +104,16 @@ giveaways:
   embedColorEnd: "#FF0062"
   reaction: "🎉"
 messages:
-  giveaway: "🎉🎉 **GIVEAWAY** 🎉🎉"
-  giveawayEnded: "🎉🎉 **GIVEAWAY ENDED** 🎉🎉"
+  giveaway: "🎉**GIVEAWAY**🎉"
+  giveawayEnded: "🎉**GIVEAWAY ENDED**🎉"
   timeRemaining: "Time remaining: **{duration}**!"
-  inviteToParticipate: "React with 🎉 to participate!"
-  winMessage: "Congratulations, {winners}! You won **{prize}**!"
-  embedFooter: "Zeltux Giveaways"
-  noWinner: "Giveaway cancelled, no valid participations."
-  winners: "winner(s)"
-  endedAt: "End at"
-  rerollMessage: "🎉 New winner(s) : {winners}! Congratulations!"
+  inviteToParticipate: "Reageer met 🎉 om mee te doen!"
+  winMessage: "Gefeliciteerd, {winners}! Je hebt **{prize}** gewonnen!"
+  embedFooter: "Sparrow Giveaways"
+  noWinner: "Giveaway gestopt, Niemand deed mee."
+  winners: "winnaar(s)"
+  endedAt: "Eindigt om"
+  rerollMessage: "🎉 Nieuwe winnaar(s) : {winners}! !"
 
 
 ##### Economy #####
@@ -138,12 +135,12 @@ social:
   facebook: ""
   twitter: ""
   instagram: ""
-  youtube: ""
+  youtube: "DonerKebaab & Xorpi"
   twitch: ""
 
 online:
-  website: ""
-  forums: ""
+  website: "store.sparrow.net"
+  forums: "play.sparrow.nl"
 
 
 ##### FILTERS #####
@@ -152,8 +149,7 @@ online:
 # m - management role
 
 swearFilter: "on"
-swearWords: ["fuck","shit","piss","dick","fucker","cock","cunt","bitch","whore","arse",
-            "bastard","wanker","bullshit","nigger","slut","choad"]
+swearWords: ["nigga","nigger","kanker","cancer","kutserver","doxen","booten","lul","neger","homo"]
 swearBypass: ["s","m"]
 
 inviteFilter: "on"
