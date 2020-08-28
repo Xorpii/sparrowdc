@@ -16,7 +16,11 @@ prefix: "-"
 
 serverName: "Sparrow"
 botName: "Sparrow"
+<<<<<<< HEAD
 footer: "© Sparrow | Eigenaar Xorpi | Gemaakt door Xorpi"
+=======
+footer: "© Sparrow | Owned by xorpi | Developed by Xorpi"
+>>>>>>> b625a379228378ec5effac65ea0f156bf844f4a0
 
 statusMessage: "@Xorpi#4323"
     
@@ -45,10 +49,17 @@ autoRoles: ["Member"]
 joinLeaveMessage: "on"
 joinLeaveChannel: "welcome"
 
+<<<<<<< HEAD
 welcomeMsgLine1: "Bedankt voor het joinen!"
 welcomeMsgLine2: "Veel plezier op de server"
 
 verificationSystem: "on"
+=======
+welcomeMsgLine1: "Welkom!"
+welcomeMsgLine2: "Op onze server"
+
+verificationSystem: "off"
+>>>>>>> b625a379228378ec5effac65ea0f156bf844f4a0
 verificationRole: "Verified"
 verificationChannel: "verify"
 
@@ -105,6 +116,7 @@ giveaways:
   embedColorEnd: "#FF0062"
   reaction: "🎉"
 messages:
+<<<<<<< HEAD
   giveaway: "🎉**GIVEAWAY**🎉"
   giveawayEnded: "🎉**GIVEAWAY ENDED**🎉"
   timeRemaining: "Time remaining: **{duration}**!"
@@ -115,6 +127,18 @@ messages:
   winners: "winnaar(s)"
   endedAt: "Eindigt om"
   rerollMessage: "🎉 Nieuwe winnaar(s) : {winners}! !"
+=======
+  giveaway: "🎉 **GIVEAWAY** 🎉"
+  giveawayEnded: "🎉🎉 **GIVEAWAY ENDED** 🎉🎉"
+  timeRemaining: "Time remaining: **{duration}**!"
+  inviteToParticipate: "Reageer met 🎉 om mee te doen!"
+  winMessage: "Gefeliciteerd, {winners}! je hebt **{prize}** gewonnen!"
+  embedFooter: "Sparrow Giveaways"
+  noWinner: "Giveaway cancelled, no valid participations."
+  winners: "winner(s)"
+  endedAt: "Eindigd om"
+  rerollMessage: "🎉 Nieuwe winnaar(s) : {winners}! gefeliciteerd!"
+>>>>>>> b625a379228378ec5effac65ea0f156bf844f4a0
 
 
 ##### Economy #####
@@ -150,7 +174,12 @@ online:
 # m - management role
 
 swearFilter: "on"
+<<<<<<< HEAD
 swearWords: ["nigga","nigger","kanker","cancer","kutserver","doxen","booten","lul","neger","homo"]
+=======
+swearWords: ["fuck","shit","piss","dick","fucker","cock","cunt","bitch","whore","arse",
+            "bastard","wanker","bullshit","nigger","slut","choad","neger"."kanker","cancer","booten","doxen","aids","ebola","nigga"]
+>>>>>>> b625a379228378ec5effac65ea0f156bf844f4a0
 swearBypass: ["s","m"]
 
 inviteFilter: "on"
