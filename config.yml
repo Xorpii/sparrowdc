@@ -11,7 +11,7 @@ setup:
 ##### SETTINGS #####
 
 colour: "FF0062"
-prefix: "="
+prefix: "-"
 
 serverName: "Sparrow"
 botName: "Sparrow"
