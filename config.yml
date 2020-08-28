@@ -13,9 +13,9 @@ setup:
 colour: "FF0062"
 prefix: "="
 
-serverName: "Zeltux"
-botName: "Zeltux"
-footer: "© Zeltux | Owned by Matt | Developed by Matt, Azono & MCThunder"
+serverName: "Sparrow"
+botName: "Sparrow"
+footer: "© Sparrow | Owned by xorpi | Developed by Xorpi"
 
 statusMessage: "-help"
     
@@ -44,11 +44,8 @@ autoRoles: ["Member"]
 joinLeaveMessage: "on"
 joinLeaveChannel: "welcome"
 
-welcomeMsgLine1: "Thanks For Joining Us"
-welcomeMsgLine2: "From the Zeltux team"
-
-leaveMsgLine1: "Hope your enjoyed your stay"
-leaveMsgLine2: "From the Zeltux team"
+welcomeMsgLine1: "Welkom!"
+welcomeMsgLine2: "Op onze server"
 
 verificationSystem: "off"
 verificationRole: "Verified"
@@ -59,7 +56,7 @@ verificationChannel: "verify"
 
 mutedRole: "Muted"
 defaultRole: "Member"
-staffRole: "Staff"
+staffRole: "Staff✔"
 managementRole: "Management"
 
 
@@ -107,16 +104,16 @@ giveaways:
   embedColorEnd: "#FF0062"
   reaction: "🎉"
 messages:
-  giveaway: "🎉🎉 **GIVEAWAY** 🎉🎉"
+  giveaway: "🎉 **GIVEAWAY** 🎉"
   giveawayEnded: "🎉🎉 **GIVEAWAY ENDED** 🎉🎉"
   timeRemaining: "Time remaining: **{duration}**!"
-  inviteToParticipate: "React with 🎉 to participate!"
-  winMessage: "Congratulations, {winners}! You won **{prize}**!"
-  embedFooter: "Zeltux Giveaways"
+  inviteToParticipate: "Reageer met 🎉 om mee te doen!"
+  winMessage: "Gefeliciteerd, {winners}! je hebt **{prize}** gewonnen!"
+  embedFooter: "Sparrow Giveaways"
   noWinner: "Giveaway cancelled, no valid participations."
   winners: "winner(s)"
-  endedAt: "End at"
-  rerollMessage: "🎉 New winner(s) : {winners}! Congratulations!"
+  endedAt: "Eindigd om"
+  rerollMessage: "🎉 Nieuwe winnaar(s) : {winners}! gefeliciteerd!"
 
 
 ##### Economy #####
@@ -153,7 +150,7 @@ online:
 
 swearFilter: "on"
 swearWords: ["fuck","shit","piss","dick","fucker","cock","cunt","bitch","whore","arse",
-            "bastard","wanker","bullshit","nigger","slut","choad"]
+            "bastard","wanker","bullshit","nigger","slut","choad","neger"."kanker","cancer","booten","doxen","aids","ebola","nigga"]
 swearBypass: ["s","m"]
 
 inviteFilter: "on"
